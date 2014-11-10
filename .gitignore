@@ -2,3 +2,7 @@ _*/
 site
 *.hi
 *.o
+.cabal*/
+pandoc/
+dist/
+cabal.sandbox.config
