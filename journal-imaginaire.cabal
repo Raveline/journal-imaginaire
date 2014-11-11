@@ -19,7 +19,7 @@ executable journal-imaginaire
   main-is:             site.hs
   -- other-modules:       
   -- other-extensions:    
-  build-depends:       base >=4.7 && <4.8
+  build-depends:       base
                       ,hakyll
                       ,text
                       ,filepath
