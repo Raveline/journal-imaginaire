@@ -1,5 +1,6 @@
 ---
 title: Histoires
+serie: Un récit de vacances
 ---
 Cher journal,
 

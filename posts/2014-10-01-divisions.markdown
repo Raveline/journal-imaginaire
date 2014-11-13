@@ -1,5 +1,6 @@
 ---
 title: Divisions
+serie: Un récit de vacances
 ---
 
 Cher journal,

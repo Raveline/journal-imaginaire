@@ -1,5 +1,6 @@
 ---
-title: Affranchissement
+title:  Affranchissement
+serie:  Un récit de vacances
 ---
 Cher journal,
 

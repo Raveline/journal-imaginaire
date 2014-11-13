@@ -1,5 +1,6 @@
 ---
 title: Résolution
+serie: Un récit de vacances
 ---
 Cher journal,
 

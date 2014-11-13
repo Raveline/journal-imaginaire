@@ -1,5 +1,6 @@
 ---
 title: Hachoir
+serie: Un récit de vacance
 ---
 Cher journal,
 
