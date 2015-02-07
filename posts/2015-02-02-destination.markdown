@@ -39,7 +39,7 @@ voit quelques facteurs tirant l'espèce de hotte dans laquelle ils transportent
 les lettres. Souvent, je peux en voir deux côte à côte, discutant avant de
 bifurquer, qui ressemblent aux nourrices du quartier qui font de même devant
 leurs poussettes. A l'intérieur, je peux voir les enveloppes, les prospectus,
-les colis dont j'ignorerais toujours la fin.  Même l'alignement des poubelles,
+les colis dont j'ignorerai toujours la fin.  Même l'alignement des poubelles,
 dont je sais qu'on ira emporter leur contenu vers quelque décharge inconnue,
 réveille en moi cette insatiable curiosité. 
 
