@@ -44,7 +44,7 @@ class TextAnalyst(object):
         not_stopwords = [w for w in words if w not in stop_words]
         fdist2 = FreqDist(not_stopwords)
         self.fifty_first_words = fdist.most_common(50)
-        self.hundreds_nsw = fdist2.most_common(100)
+        self.hundreds_nsw = fdist2.most_common(300)
 
         bigram_measures = BigramAssocMeasures()
         finder = BigramCollocationFinder.from_words(words)
@@ -55,6 +55,10 @@ class TextAnalyst(object):
         finder3 = TrigramCollocationFinder.from_words(words)
         finder3.apply_freq_filter(10)
         self.fifty_collocations3 = finder3.nbest(trigram_measures.pmi, 50)
+
+        self.stcs_width_words = [' '.join(sent) for sent in sentences
+                                 if "malheureusement" in sent.lower()]
+
 
     def print_analyze(self):
         print('------------------------------------------------')
@@ -69,8 +73,8 @@ class TextAnalyst(object):
         string = ', '.join([w for (w, c) in self.fifty_first_words])
         print(string)
         print('------------------------------------------------')
-        print('50 MOST USED WORDS (NO STOPWORDS)')
-        string = ', '.join([w for (w, c) in self.hundreds_nsw])
+        print('100 MOST USED WORDS (NO STOPWORDS)')
+        string = ', '.join([("%s (%d) " % (w, c)) for (w, c) in self.hundreds_nsw])
         print(string)
         print('------------------------------------------------')
         print('50 COLLOCATIONS OF 2 WORDS USED MORE THAN 10 TIMES')
@@ -81,6 +85,11 @@ class TextAnalyst(object):
         print('50 COLLOCATIONS OF 3 WORDS USED MORE THAN 10 TIMES')
         string = ', '.join([' '.join([w1, w2, w3])
                             for (w1, w2, w3) in self.fifty_collocations3])
+        print(string)
+
+        print('-----------------------------------------------')
+        print('All sentences with the word malheureusement')
+        string = '\n'.join(self.stcs_width_words)
         print(string)
 
 if __name__ == "__main__":
