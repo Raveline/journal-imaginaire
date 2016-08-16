@@ -42,7 +42,7 @@ main = hakyll $ do
             posts <- chronological =<< loadAll "posts/*"
             let archiveCtx =
                     listField "posts" postCtx (return posts) `mappend`
-                    constField "title" "Billets"             `mappend`
+                    constField "title" "Table des entrées"   `mappend`
                     defaultContext
 
             getResourceBody
