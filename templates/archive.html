@@ -1,0 +1,14 @@
+<ul>
+$for(posts)$
+	$if(seriesBegin)$
+		<li class="series">$seriesBegin$</li>
+		<ul>
+	$endif$
+        <li>
+            $date$ - <a href="$url$">$title$</a>
+        </li>
+	$if(seriesEnd)$
+		</ul>
+  $endif$
+$endfor$
+</ul>
