@@ -70,7 +70,7 @@ main = hakyll $ do
 --------------------------------------------------------------------------------
 postCtx :: Context String
 postCtx =
-    dateField "date" "%d/%m/%Y" `mappend`
+    dateField "date" "%d.%m.%Y" `mappend`
     field "nextPost" nextPostUrl `mappend`
     field "prevPost" previousPostUrl `mappend`
     field "seriesBegin" beginsSeries `mappend`
