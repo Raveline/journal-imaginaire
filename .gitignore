@@ -5,4 +5,5 @@ site
 .cabal*/
 pandoc/
 dist/
+tmp/*
 cabal.sandbox.config

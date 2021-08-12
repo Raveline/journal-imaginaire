@@ -1,0 +1,19 @@
+body{color:black;font-size:1.7rem;margin:0px 0px 0px 100px;width:28em; font-family:'Neuton', serif;}
+div#header{border-bottom:2px solid black;margin-bottom:30px;padding:12px 0px 12px 0px}
+div#logo a{color:black;float:left;font-weight:bold;text-decoration:none}
+div#header #navigation{text-align:right}
+div#header #navigation a{color:black;font-weight:bold;margin-left:12px;text-decoration:none;text-transform:uppercase}
+div#footer{border-top:solid 2px black;color:#555;font-size:18px;margin-top:30px;padding:12px 0px 12px 0px;text-align:left}
+p {word-spacing: 0.25em; text-align:justify; text-justify: inter-character; line-height: 1.5;}
+p + p + p { text-indent: 1.5em; }
+h1{font-size:1.9rem}
+h2{font-size:1.8rem}
+h2 a {text-decoration:none; color:#000;}
+div.info{color:#555;font-style:italic; font-size: 0.8em;}
+a { text-decoration:underline; color:#000;}
+ul { list-style-type:square; }
+ul li a { text-decoration:none;font-style:italic;}
+ul li { margin: .2em 0 .2em 0; padding: 0 0 0 .5em;}
+ul ul { list-style-type: circle; }
+li.series { font-weight: bold; }
+div.navigate-one{ margin-top: 1em; margin-top: 2.5em;}
